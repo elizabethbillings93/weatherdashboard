@@ -1,0 +1,51 @@
+.header{
+    background-image:linear-gradient(to right,rgb(4, 4, 182),rgb(64, 22, 82));
+    padding:30px;
+    text-align: center;
+    color:white;
+    font-family:'Barlow Condensed', sans-serif; 
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+body{
+    font-family:'Barlow Condensed', sans-serif; 
+    
+}
+#textarea{
+    color: lightgrey;
+    font-size: 20px;
+    
+}
+#search{
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+#searchbutton{
+    background-color: rgb(76, 110, 245);
+    color:white;
+    padding-left: 98px;
+    padding-right: 98px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    display:flex;
+    
+}
+.searcharea{
+    width:10px;
+}
+.temp{
+    border:solid black;
+    display:inline;
+    margin-left: 400px;
+    padding:100px 400px ;
+}
+.fiveday{
+    border:solid black;
+    margin-top: 200px;
+    margin-left:400px;
+    margin-right: 200px;
+}
