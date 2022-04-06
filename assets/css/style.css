@@ -13,7 +13,7 @@ body{
     
 }
 #textarea{
-    color: lightgrey;
+    color: rgb(143, 143, 143);
     font-size: 20px;
     
 }
@@ -45,6 +45,7 @@ body{
 }
 .fiveday{
     border:solid black;
+    height:200px;
     margin-top: 200px;
     margin-left:400px;
     margin-right: 200px;
