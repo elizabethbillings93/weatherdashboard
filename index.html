@@ -1,34 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Weather Dashboard</title>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Oswald:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/jass.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
     <div>
         <header class="header"> Weather Dashboard</header>
     </div>
-    <div>
+    <!-- search input -->
+      <div>
         <p id="search">Search for City </p>
-        
-        <textarea id="textarea"></textarea>
-       
+        <input type="text" id="textarea" placeholder="Enter City">
         <button id="searchbutton">Search</button>
-        <p id="searchhistory"></p>
-        
+       </div>
+   <!-- end search input -->
+
+   <!-- current day weather -->
+    <div class="main-card">
+       <div id="current_day" >
+       <a class="temp"></a>
+       <p class="wind"></p>
+       <p class="humidity"></p>
+       <p class="cloud"></p>
+       </div> 
     </div>
-    <div>
-       <p class="temp"></p>
+  
+    <!-- end current day weather -->
+  
+    <!-- 5 day forecast display -->    
+   <section>
+     <div class="fiveday" >
+         <div id="day1">
+           <p id="future-temp1"></p>
+           <p id="future-wind1"></p>
+           <p id="future-humidity1"></p>
+           <p id="future-cloud1"></p>
+         </div>
+         <div id="day2">
+          <p id="future-temp2"></p>
+          <p id="future-wind2"></p>
+          <p id="future-humidity2"></p>
+          <p id="future-cloud2"></p>
+        </div>
+        <div id="day3">
+          <p id="future-temp3"></p>
+          <p id="future-wind3"></p>
+          <p id="future-humidity3"></p>
+          <p id="future-cloud3"></p>
+        </div>
+        <div id="day4">
+          <p id="future-temp4"></p>
+          <p id="future-wind4"></p>
+          <p id="future-humidity4"></p>
+          <p id="future-cloud4"></p>
+        </div>
+        <div id="day5">
+          <p id="future-temp5"></p>
+          <p id="future-wind5"></p>
+          <p id="future-humidity5"></p>
+          <p id="future-cloud5"></p>
+        </div>
        
     </div>
-    <div>
-       <p class="fiveday"></p> 
-    </div>
+</section> 
+    <!-- end 5 day forecast display -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 <script src="./assets/js/script.js"></script>
 </body>
 

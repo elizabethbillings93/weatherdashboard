@@ -32,21 +32,34 @@ body{
     font-size: 20px;
     border-radius: 5px;
     display:flex;
+    margin-top: 10px;
     
 }
 .searcharea{
     width:10px;
 }
-.temp{
-    border:solid black;
-    display:inline;
-    margin-left: 400px;
-    padding:100px 400px ;
+.main-card{
+   border:solid black;
+   height:200px;
+   margin-left:400px;
+   margin-right: 200px;
+   margin-bottom: 20px;
+   justify-content: space-between;
+   text-align: center;
+   font-size: 30px;
+   padding-top:10px;
+   line-height: 20px;
+}
+.cincoday{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
 }
 .fiveday{
     border:solid black;
-    height:200px;
-    margin-top: 200px;
+    padding:10px;
     margin-left:400px;
     margin-right: 200px;
+    display:flex;
+    justify-content: space-evenly;
 }
